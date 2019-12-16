@@ -1,8 +1,9 @@
 FROM keymetrics/pm2:latest-alpine
 WORKDIR /usr/src/app
 ADD . /usr/src/app
-RUN npm config set registry https://registry.npm.taobao.org/ && \  
-    npm i
+RUN npm i
+#npm config set registry https://registry.npm.taobao.org/ && \  
+ 
 # RUN npm i
 EXPOSE 3000
 #pm2在docker中使用命令为pm2-docker
