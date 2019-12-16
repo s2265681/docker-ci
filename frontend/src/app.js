@@ -62,7 +62,7 @@ class App extends Component {
       'pages/user/user',
     ],
     window: {
-      navigationBarTitleText: '开课吧',
+      navigationBarTitleText: '开课吧1',
     },
     tabBar: {
       selectedColor: "#b4282d",
@@ -70,7 +70,7 @@ class App extends Component {
         pagePath: "pages/home/home",
         iconPath: "./assets/home.png",
         selectedIconPath: "./assets/home-active.png",
-        text: "首页"
+        text: "首页1"
       },
       {
         pagePath: "pages/cart/cart",

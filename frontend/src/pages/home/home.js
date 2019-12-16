@@ -82,7 +82,7 @@ export default class Home extends Component {
     console.log(this.state)
     return (
       <View className='index'>
-        {this.state.isH5?<AtNavBar title="开课吧test webhooks" ></AtNavBar>:null}
+        {this.state.isH5?<AtNavBar title="开课吧" ></AtNavBar>:null}
         <Swiper
           className='swiper-container'
           indicatorActiveColor='#e93b3d'
