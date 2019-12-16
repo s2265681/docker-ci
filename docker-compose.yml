@@ -24,7 +24,7 @@ services:
   nginx:
     restart: always
     image: nginx
-    ports:
+    ports: # 8091:80 
       - 80:80
     volumes:
       - ./nginx/conf.d/:/etc/nginx/conf.d
