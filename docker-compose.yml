@@ -10,7 +10,7 @@ services:
       # volumes:
       #   - ./backend:/usr/src/app
       ports:
-        - "3000:3000"
+        - "3009:3009"
   mongo:
     image: mongo
     restart: always
@@ -30,6 +30,7 @@ services:
       - ./nginx/conf.d/:/etc/nginx/conf.d
       - ./frontend/dist:/var/www/html/
       - ./static/:/static/
+
 
 # 使用 docker-compose up -d --force-recreate --build
 # docker-compose up
